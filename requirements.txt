@@ -1,0 +1,6 @@
+# Runtime dependencies (all free / open source). Prefer: pip install -e ".[dev]"
+openai>=1.40          # OpenAI-compatible client; works with Ollama, OpenRouter, Groq, Gemini
+python-dotenv>=1.0
+pandas>=2.0
+numpy>=1.26
+yfinance>=0.2.40      # free market data, no API key
